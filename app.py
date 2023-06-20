@@ -18,10 +18,7 @@ MODEL_KWARGS = {"device": "cuda"}
 CLIENT_SECRET_FILE = "credentials.json"
 TOKEN_FILE = 'token.json'
 GOOGLE_DRIVER_FOLDER_ID = "YOUR_GOOGLE_DRIVER_FOLDER_ID_HERE"
-GDRIVE_READ_ONLY_SCOPE = "https://www.googleapis.com/auth/drive"
-SCOPES = [GDRIVE_READ_ONLY_SCOPE]
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = CLIENT_SECRET_FILE
 os.environ["OPENAI_API_KEY"] ="sk-YOUR_OPEN_AI_API_KEY"
 
 
