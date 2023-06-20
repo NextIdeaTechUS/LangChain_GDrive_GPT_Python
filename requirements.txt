@@ -1,0 +1,8 @@
+langchain
+openai
+chromadb
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+PyPDF2
+sentence_transformers
